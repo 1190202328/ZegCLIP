@@ -29,7 +29,7 @@ both_class = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
               163, 164, 165, 166, 167, 168, 169, 170]
 num_classes = len(base_class)
 
-pretrained = 'offcial_pretrained/ViT-B-16.pt'
+pretrained = 'official_pretrained/ViT-B-16.pt'
 
 model = dict(
     type='ZegCLIP',
